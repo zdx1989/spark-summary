@@ -12,7 +12,7 @@ object StorageLevel {
 
     //cache() === persist(MEMORY_ONLY)
     //StorageLevel, useDisk, useMemory, useHeap, Seralized, relication
-    //五个参数控制12个存储级别, 常见的如下
+    //五个参数控制12个存储级别, 常见的如下,且其中ser控制是否进行序列化，2代表rdd备份几份
     //MEMORY_ONLY
     //MEMORY_AND_DISK
     //MEMORY_SER
