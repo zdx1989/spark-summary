@@ -34,6 +34,6 @@ object SparkShuffle {
     //如果数据在本地blockManger负责读取， 如果在远端通过netty获取，远端读取采用多线程的方式读取
     //每次请求的数据量通过spark.reducer.maxSizeInFight配置项进行配置
     //判断是否需要预聚合，聚合完进行外部排序
-    //
+    //shuffle写操作的时候，是一边拉取数据一边做聚合操作
   }
 }
