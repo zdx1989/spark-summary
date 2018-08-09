@@ -30,7 +30,11 @@ object Yarn {
     //ApplicationMaster中创建应用程序，它向resourceManger申请资源，启动executor来运行任务集
     //监控应用的整个过程，知道完成运行
 
-    //
+    //YARN-client和YARN-cluster对比
+    //两者主要的区别是application master，每一个应用都会有一个AM
+    //她说应用启动的第一个容器，负责和RM申请资源，告诉NM启动container
+    //client模式下，AM仅仅向YARN请求Executor，Client和container保持通信， client不能断开
+    //cluster模式下，driver在AM中，它负责申请资源，以及监督作业运行
 
   }
 }
