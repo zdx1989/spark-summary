@@ -12,7 +12,7 @@ object SQLFramework {
     //hive：对hive的数据进行处理
     //hive-thriftServe：提供CLI和JDBC／ODBC的接口
 
-    
+
   }
 
 }
