@@ -6,6 +6,6 @@ package sparkSQL
 object SparkSQLContext {
 
   def main(args: Array[String]): Unit = {
-    
+
   }
 }
