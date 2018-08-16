@@ -6,6 +6,6 @@ package sparkStreaming
 object DStream {
 
   def main(args: Array[String]): Unit = {
-
+      //时间片段
   }
 }
